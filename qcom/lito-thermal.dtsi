@@ -421,7 +421,7 @@
 		tracks-low;
 		trips {
 			min_temp_0_lowf: active-config0 {
-				temperature = <5000>;
+				temperature = <(-20000)>;
 				hysteresis = <5000>;
 				type = "passive";
 			};
@@ -445,7 +445,7 @@
 		tracks-low;
 		trips {
 			min_temp_0_lowc: active-config0 {
-				temperature = <5000>;
+				temperature = <(-20000)>;
 				hysteresis = <5000>;
 				type = "passive";
 			};
@@ -1039,7 +1039,7 @@
 		tracks-low;
 		trips {
 			min_temp_1_lowf: active-config0 {
-				temperature = <5000>;
+				temperature = <(-20000)>;
 				hysteresis = <5000>;
 				type = "passive";
 			};
@@ -1062,7 +1062,7 @@
 		tracks-low;
 		trips {
 			min_temp_1_lowc: active-config0 {
-				temperature = <5000>;
+				temperature = <(-20000)>;
 				hysteresis = <5000>;
 				type = "passive";
 			};
